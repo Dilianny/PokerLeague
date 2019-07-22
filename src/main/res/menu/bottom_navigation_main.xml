@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_player"
+        android:title="Player" />
+
+    <item
+        android:id="@+id/navigation_tournament"
+        android:title="Tournament" />
+
+    <item
+        android:id="@+id/navigation_venue"
+        android:title="Venue" />
+</menu>

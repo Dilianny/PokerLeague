@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.player.DetailsFragment">
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/bandName"
+        android:textColor="@color/colorPrimary"
+        tools:text="band name"/>
+
+    <TextView
+        android:id="@+id/playerPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/bandDescription"
+        android:textColor="@color/colorPrimary"
+        tools:text="description"/>
+
+</LinearLayout>
